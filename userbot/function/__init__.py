@@ -28,7 +28,7 @@ if not os.path.isdir(sedpath):
     os.makedirs(sedpath)
 
 
-# Thanks To Userge-X
+# Thanks To @Theshashank
 async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
     """ run command in terminal """
     args = shlex.split(cmd)
