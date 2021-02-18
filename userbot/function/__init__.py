@@ -197,7 +197,7 @@ async def convert_to_image(event, borg):
     await event.edit("`Almost Completed.`")
     return lmao_final
 
-def lightning_convert_to_img(image, filename=None):
+def DEVIL_convert_to_img(image, filename=None):
     filename = filename or os.path.join("./temp/", "temp.jpg")
     img = Image.open(image)
     if img.mode != "RGB":
@@ -206,7 +206,7 @@ def lightning_convert_to_img(image, filename=None):
     os.remove(image)
     return filename
 
-# Thanks To Userge-X
+# Thanks To SHASHANK SHARMA
 async def crop_vid(input_vid: str, final_path: str):
     media_info = MediaInfo.parse(input_vid)
     for track in media_info.tracks:
@@ -222,7 +222,7 @@ async def crop_vid(input_vid: str, final_path: str):
         os.rename(input_vid, final_path)
 
 
-# Thanks To Userge-X
+# Thanks To SHASHANK SHARMA
 async def take_screen_shot(
     video_file: str, duration: int, path: str = ""
 ) -> Optional[str]:
@@ -241,7 +241,7 @@ async def take_screen_shot(
     return thumb_image_path if os.path.exists(thumb_image_path) else None
 
 
-# Thanks To @HeisenbergTheDanger, @xditya
+# Thanks To @Theshashank
 async def fetch_feds(event, borg):
     fedList = []
     await event.edit("`Fetching Your FeD List`, This May Take A While.")
