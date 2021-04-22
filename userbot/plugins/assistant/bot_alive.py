@@ -5,7 +5,7 @@ from userbot import ALIVE_NAME, bot
 currentversion = "4.9"
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Black Lightning"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "White Devil X"
 PM_IMG = "https://telegra.ph/file/a64ed2e3985f05b3c554e.jpg"
 pm_caption = "➥ **ASSISTANT IS:** `ONLINE`\n\n"
 pm_caption += "➥ **SYSTEMS STATS**\n"
